@@ -11,7 +11,7 @@
     "twitter": {
         "api_token": "twitter_token",
         "api_url": "https://api.twitter.com",
-        "tweet_fetch_interval": 72000,
+        "tweet_fetch_interval": 40,
         "tweet_fetch_delay": 30,
         "result_num": 10
     }
