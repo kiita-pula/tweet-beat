@@ -47,5 +47,6 @@ func main() {
 
 	go bot.start(ctx)
 
+	log.Println("[main] all systems nominal")
 	<-ctx.Done()
 }

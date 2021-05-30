@@ -101,9 +101,9 @@ func (tw *tweet) start(ctx context.Context) chan *tweetSub {
 				case err != nil:
 					log.Println(err.Error())
 				default:
-					log.Printf("[tweet] found %d new tweets", len(recentSearch.LookUps))
+					//log.Printf("[tweet] found %d new tweets", len(recentSearch.LookUps))
 					if len(recentSearch.LookUps) == 0 {
-						log.Println("[tweet] no new tweets found")
+						//log.Println("[tweet] no new tweets found")
 						continue
 					}
 
